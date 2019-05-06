@@ -1228,6 +1228,17 @@ header .logo a {
 	color: #ffffff !important;
 }
 
+.navbar-brand img {
+	position:absolute;
+	width:70px;
+	height:70px;
+}
+
+.header-home {
+	padding-left:70px;
+	font-size:1.6em;
+}
+
 
 .navbar-nav {
 	display: -webkit-box;
@@ -2190,10 +2201,11 @@ header .logo a {
 	margin: 1.2rem .8rem 0 .8rem;
 	border-radius: 50%;
 	display: inline-block;
-	background: #FFFFFF;
+	border: solid #1d948d 2px;
 }
 .owl-theme .owl-controls .owl-page.active span {
 	background: #FFB400;
+	border: solid #FFB400 2px;
 }
 
 

@@ -47,11 +47,12 @@
 	$("#owl-slider").owlCarousel({
         navigation: false,
         pagination: true,
-        itemsCustom : [
-	        [0, 3],
-	        [700, 5],
-	        [960, 8]
-	     ],
+        items: 1,
+		singleItem: true,
+		itemsScaleUp : true,
+		slideSpeed: 100,
+		autoPlay: 5000,
+		stopOnHover: true,
         navigationText: false
     });
 
